@@ -36,4 +36,5 @@ end
 Then /^I should be signed out$/ do
   And %{I should see "Sign up as User"}
   And %{I should see "Sign in as User"}
+  And %{I should not see "Logout"}
 end
